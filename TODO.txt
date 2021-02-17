@@ -1,0 +1,21 @@
+#TODO
+
+- Existing tasks:
+    - Format pack names and let Neme sends it (done)
+    - Finish p function, add exception to invalid values and file not found (done)
+    - Card set on Shadowverse-portal is in the form ID so convert shorthand names to IDs (done)
+    - Add exception int out of range in neme_exceptions (done)
+    - Add exception invalid pack's shorthand in neme_exceptions (for c function)
+    - Add exception invalid value and int out of range in neme_exceptions (for types and rarities in c function)
+    - Filter number and special character for name and keyword in c function
+    - Add simplified search (done)
+    - Add advanced search (done)
+    - Add token search (after finished multi-card display)
+    - Add attack + life (top)!!!
+    - Handle multiple cards case
+
+- New tasks:
+    - Configure d function with image and link type
+    - Add exception to validate values in d function
+    - Refactor embed object initialization process in neme_msg.py and reuse it in other places (done)
+    - Add color corresponds to class color (switched to random: done)
